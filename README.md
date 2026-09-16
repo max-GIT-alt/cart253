@@ -1,48 +1,26 @@
 # CART253 🎨
 
-Welcome to my repository for **CART253: Interactivity Art**! This is where I'll be storing my code, experiments, and projects for the course.
+![CART253 banner](images/banner.svg)
 
-## About Me
+## About This Website
 
-Hi, I'm [Your Name]! I'm a student in CART253, learning about interactivity, creative coding, and version control with Git and GitHub.
+This site collects together and shows off my prototyping work for **CART253: Interactivity Art**. As the semester goes on, I'll be adding sketches, experiments, and assignments here, along with a running [reflective journal](journal.md) of what I'm learning about creative coding, interactivity, and working with Git/GitHub and Markdown.
 
-## About This Repository
+## Useful Links
 
-This repository is my course "home base" for CART253. It contains:
+- 📓 [My Reflective Journal](journal.md)
+- 💻 [My GitHub profile](https://github.com/your-username)
+- 🌐 [Course materials](https://pippinbarr.com/cart253/)
+- 📖 [The Markdown Guide](https://www.markdownguide.org/)
 
-- Sketches and experiments from class
-- Assignments and challenges
-- Notes on things I'm learning
+## Prototypes
 
-## What I've Learned So Far
+This section will grow to contain links to all of my prototypes as I complete them throughout the course.
 
-- How to install and use `git` from the command line
-- How to `clone`, `add`, `commit`, and `push` changes to GitHub
-- How to write formatted text using **Markdown**
-- How to enable GitHub Pages to publish a live website from this repo
+<!-- Add a new entry for each prototype, e.g.: -->
+<!-- - [Prototype 1: Name](./prototype-1/) — a one-line description of what it does -->
 
-## Useful Commands
-
-Here are a few Git commands I'm getting comfortable with:
-
-```bash
-git status
-git add .
-git commit -m "A good commit message"
-git push
-```
-
-## Links
-
-- [My GitHub Pages site](https://max-GIT-alt.github.io/cart253)
-- [Course materials](https://pippinbarr.com/cart253/)
-- [The Markdown Guide](https://www.markdownguide.org/)
-
-## Extra: An Image!
-
-Here's an image, just to prove I can embed one in Markdown:
-
-![A fun placeholder image](https://placekitten.com/600/300)
+- *(Prototypes will be listed here as they're completed.)*
 
 ---
 

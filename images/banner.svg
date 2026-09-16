@@ -1,0 +1,20 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <circle cx="1080" cy="70" r="70" fill="#ffffff" opacity="0.06"/>
+  <circle cx="150" cy="250" r="120" fill="#ffffff" opacity="0.05"/>
+  <circle cx="950" cy="230" r="40" fill="#facc15" opacity="0.8"/>
+  <text x="60" y="150" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">CART253</text>
+  <text x="60" y="200" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#f5f3ff">Interactivity: Art — Prototyping Journal &amp; Sketches</text>
+</svg>
