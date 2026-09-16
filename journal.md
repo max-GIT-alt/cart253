@@ -12,6 +12,4 @@ I hope the future audience for this site — classmates, instructors, maybe futu
 
 ### Screenshot
 
-![Screenshot of my course website](images/journal-screenshot-placeholder.png)
-
-*(Replace the image above with an actual screenshot of my published GitHub Pages site once it's live.)*
+![Screenshot of my course website](images/journal-screenshot.png)
