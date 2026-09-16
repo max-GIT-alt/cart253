@@ -2,9 +2,7 @@
  * Rainbow Explosion + Bongo Cat
  * Maxim Yakimenko
  *
- * Automatic rainbow particle explosions on a transparent
- * canvas, layered on top of Bongo Cat, who bops along
- * with every burst. Click also triggers an extra burst.
+ * CAT.
  */
 "use strict";
 
@@ -14,13 +12,13 @@ const AUTO_INTERVAL = 45; // frames between automatic explosions (~0.75s at 60fp
 
 function setup() {
   const canvas = createCanvas(600, 400);
-  canvas.canvas.style.background = "transparent"; // make sure nothing opaque sneaks in
+  canvas.canvas.style.background = "transparent";
   colorMode(HSB, 360, 100, 100, 100);
   noStroke();
 }
 
 function draw() {
-  clear(); // fully transparent each frame — no background fill, no trail
+  clear(); // fully transparent frames
 
   // Automatic explosion at a random spot, on a timer
   if (frameCount % AUTO_INTERVAL === 0) {
@@ -37,12 +35,6 @@ function draw() {
       particles.splice(i, 1);
     }
   }
-}
-
-// Clicking still adds an extra burst wherever you click
-function mousePressed() {
-  explode(mouseX, mouseY);
-  bopCat();
 }
 
 // Spawns a burst of rainbow particles at (x, y)
