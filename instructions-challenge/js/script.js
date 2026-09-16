@@ -14,12 +14,12 @@ function setup() {
 
 }
 
-    function setup() {
-      createCanvas(100, 100);
-      background(200);
-      circle(50, 50, 25);
-      let alphavalue = color(0, 126, 255, 102);
-    } //It's a circle
+  function setup() {
+    createCanvas(100, 100);
+    background(200);
+    circle(50, 50, 25);
+    let alphavalue = color(0, 126, 255, 102);
+} //It's a circle
 
 function draw() {
 
