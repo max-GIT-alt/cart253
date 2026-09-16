@@ -8,17 +8,19 @@
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+//no setup, just raw js
+
 function setup() {
 
 }
 
+    function setup() {
+      createCanvas(100, 100);
+      background(200);
+      circle(50, 50, 25);
+      let alphavalue = color(0, 126, 255, 102);
+    } //It's a circle
 
-/**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
 function draw() {
 
 }
