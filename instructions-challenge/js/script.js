@@ -11,16 +11,20 @@ let particles = [];
 const AUTO_INTERVAL = 45; // frames between automatic explosions (~0.75s at 60fps)
 
 function setup() {
-  const canvas = createCanvas(600, 400);
-  canvas.canvas.style.background = "transparent"; 
+  const canvas = createCanvas(windowWidth, windowHeight);
+  canvas.canvas.style.background = "transparent";
   colorMode(HSB, 360, 100, 100, 100);
   noStroke();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
   clear(); // fully transparent each frame
 
-  // Automatic explosion at a random spot, on a timer
+  // Automatic explosion at a random spot
   if (frameCount % AUTO_INTERVAL === 0) {
     explode(random(width), random(height));
     bopCat();
@@ -36,7 +40,6 @@ function draw() {
     }
   }
 }
-
 
 // Spawns a burst of rainbow particles at (x, y)
 function explode(x, y) {

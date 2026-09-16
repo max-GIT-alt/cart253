@@ -16,22 +16,21 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 #bongoCat {
   position: fixed;
-  bottom: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 180px;
-  z-index: 2; /* cat renders on top of the canvas */
+  z-index: 1; /* cat renders on top of the canvas */
   pointer-events: none; /* clicks pass through to the canvas */
-  transform-origin: bottom center;
+  transform-origin: center center;
   transition: transform 0.06s ease-out;
 }
 
 #bongoCat.bop {
-  transform: translateX(-50%) scale(1.15, 0.9) translateY(4px);
+  transform: translate(-50%, -50%) scale(1.15, 0.9);
 }
-
