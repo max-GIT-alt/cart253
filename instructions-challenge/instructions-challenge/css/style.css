@@ -1,7 +1,7 @@
 /*********************************************
 Padding/margin reset, centers everything with
 CSS Grid, hides overflow, and layers the canvas
-on top of the bongo cat gif.
+on the bongo cat gif.
 **********************************************/
 body {
   padding: 0;
