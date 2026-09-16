@@ -1,20 +1,37 @@
 /*********************************************
-
-Here is a description of any special CSS used.
-In this case it's just padding and margin to 0
-and then centring the canvas (and anything else)
-using the CSS Grid.
-
-Also hides overflow.
-
+Padding/margin reset, centers everything with
+CSS Grid, hides overflow, and layers the canvas
+on top of the bongo cat gif.
 **********************************************/
 
 body {
   padding: 0;
   margin: 0;
-  display: grid; /* Set up the grid and justify/align to center */
+  display: grid;
   justify-content: center;
   align-content: center;
-  height: 100vh; /* Body is the height of the viewport */
-  overflow: hidden; /* Hide anything that goes off the window size */
+  height: 100vh;
+  overflow: hidden;
+  background: #111;
+}
+
+/* Both share the same grid cell so they overlap.
+   Canvas is appended after the <img> in the DOM,
+   so it naturally paints on top. */
+canvas {
+  grid-area: 1 / 1;
+}
+
+#bongoCat {
+  grid-area: 1 / 1;
+  justify-self: center;
+  align-self: end;
+  width: 180px;
+  pointer-events: none; /* clicks pass through to the canvas */
+  transform-origin: bottom center;
+  transition: transform 0.06s ease-out;
+}
+
+#bongoCat.bop {
+  transform: scale(1.15, 0.9) translateY(4px);
 }
