@@ -1,24 +1,32 @@
 /**
- * instructions-challenge
+ * Rainbow Explosion + Bongo Cat
  * Maxim Yakimenko
- * 
- * simple demo of p5 options and cats
+ *
+ * Automatic rainbow particle explosions on a transparent
+ * canvas, layered on top of Bongo Cat, who bops along
+ * with every burst. Click also triggers an extra burst.
  */
-
 "use strict";
-
-//setup handles canvas gen
 
 let particles = [];
 
+const AUTO_INTERVAL = 45; // frames between automatic explosions (~0.75s at 60fps)
+
 function setup() {
-  createCanvas(600, 400);
-  colorMode(HSB, 360, 100, 100, 100); // hue/sat/brightness/alpha makes rainbow colors easy
+  const canvas = createCanvas(600, 400);
+  canvas.canvas.style.background = "transparent"; // make sure nothing opaque sneaks in
+  colorMode(HSB, 360, 100, 100, 100);
   noStroke();
 }
 
 function draw() {
-  background(0, 0, 10, 25); // dark background, low alpha = motion-trail fade
+  clear(); // fully transparent each frame — no background fill, no trail
+
+  // Automatic explosion at a random spot, on a timer
+  if (frameCount % AUTO_INTERVAL === 0) {
+    explode(random(width), random(height));
+    bopCat();
+  }
 
   // Update and draw every particle, remove dead ones
   for (let i = particles.length - 1; i >= 0; i--) {
@@ -31,6 +39,7 @@ function draw() {
   }
 }
 
+// Clicking still adds an extra burst wherever you click
 function mousePressed() {
   explode(mouseX, mouseY);
   bopCat();
@@ -58,16 +67,16 @@ class Particle {
     const angle = random(TWO_PI);
     const speed = random(2, 8);
     this.vel = p5.Vector.fromAngle(angle).mult(speed);
-    this.hue = random(360); // random point around the color wheel = rainbow
+    this.hue = random(360);
     this.alpha = 100;
     this.size = random(6, 14);
   }
 
   update() {
     this.pos.add(this.vel);
-    this.vel.mult(0.95); // friction
-    this.vel.y += 0.15;  // gentle gravity
-    this.alpha -= 2.5;   // fade out over time
+    this.vel.mult(0.95);
+    this.vel.y += 0.15;
+    this.alpha -= 2.5;
   }
 
   display() {
