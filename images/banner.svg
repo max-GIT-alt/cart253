@@ -15,6 +15,5 @@
   <circle cx="1080" cy="70" r="70" fill="#ffffff" opacity="0.06"/>
   <circle cx="150" cy="250" r="120" fill="#ffffff" opacity="0.05"/>
   <circle cx="950" cy="230" r="40" fill="#facc15" opacity="0.8"/>
-  <text x="60" y="150" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">CART253</text>
-  <text x="60" y="200" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#f5f3ff">Interactivity: Art — Prototyping Journal &amp; Sketches</text>
+  <text x="60" y="175" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">CART253</text>
 </svg>
