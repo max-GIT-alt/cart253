@@ -23,7 +23,14 @@ function windowResized() {
 
 function draw() {
   clear(); // fully transparent each frame
+  
+  // background scenery
+  fill(120, 60, 45); // grass green
+  rect(0, height * 0.82, width, height * 0.18);
 
+  fill(50, 15, 95, 90); // pale moon
+  circle(width - 100, 90, 90);
+  
   // Automatic explosion at a random spot
   if (frameCount % AUTO_INTERVAL === 0) {
     explode(random(width), random(height));
