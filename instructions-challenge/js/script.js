@@ -26,7 +26,7 @@ function draw() {
   
   // background scenery
   fill(120, 60, 45); // grass green
-  rect(0, height * 0.82, width, height * 0.18);
+  rect(0, height * 0.82, width, height * 0.8);
 
   fill(50, 15, 95, 90); // pale moon
   circle(width - 100, 90, 90);
