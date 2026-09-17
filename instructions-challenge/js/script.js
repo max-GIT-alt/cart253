@@ -1,8 +1,8 @@
 /**
- * Rainbow Explosion + Bongo Cat
+ * Rainbow Cat
  * Maxim Yakimenko
  *
- * CAT
+ * CAT on CAT action!
  */
 "use strict";
 
