@@ -34,3 +34,25 @@ canvas {
 #bongoCat.bop {
   transform: translate(-50%, -50%) scale(1.15, 0.9);
 }
+
+#moon {
+  position: fixed;
+  top: 60px;
+  right: 80px;
+  width: 90px;
+  height: 90px;
+  background: #f5f3ce;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 12px rgba(245, 243, 206, 0.4);
+  z-index: 0;
+}
+
+#grass {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 18vh;
+  background: #2e7d32;
+  z-index: 0;
+}
