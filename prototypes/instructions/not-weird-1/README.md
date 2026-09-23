@@ -2,7 +2,7 @@
 
 Maxim Yakimenko
 
-(https://github.com/max-GIT-alt/cart253/prototypes/instructions/not-weird-1)
+([https://github.com/max-GIT-alt/cart253/prototypes/instructions/not-weird-1](https://github.com/max-GIT-alt/cart253/tree/main/prototypes/instructions/not-weird-1))
 
 ## Description
 
