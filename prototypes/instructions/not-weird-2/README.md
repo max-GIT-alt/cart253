@@ -1,6 +1,5 @@
-# TITLE OF PROJECT
+# not-weird-2 Prototyping
 
-not-weird-2 Prototyping
 Maxim Yakimenko
 
 https://max-git-alt.github.io/cart253/prototypes/instructions/not-weird-2/
