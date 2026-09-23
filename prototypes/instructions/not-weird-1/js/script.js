@@ -70,9 +70,4 @@ function drawComposition() {
     rect(r.x, r.y, r.w, r.h);
   }
 
-  // Frame the composition
-  noFill();
-  stroke(mondrianColors.black);
-  strokeWeight(lineWeight);
-  rect(0, 0, width, height);
 }
