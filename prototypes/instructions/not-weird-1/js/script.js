@@ -33,9 +33,6 @@ function setup() {
 
 function draw() {
   //empty, we don't want animations for this case
-}
-
-function drawComposition() {
   background(mondrianColors.white);
 
   // Start with the whole canvas as one region, then recursively split it
@@ -69,5 +66,9 @@ function drawComposition() {
     noFill();
     rect(r.x, r.y, r.w, r.h);
   }
+}
+
+function drawComposition() {
+  
 
 }
