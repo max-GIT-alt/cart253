@@ -67,8 +67,3 @@ function draw() {
     rect(r.x, r.y, r.w, r.h);
   }
 }
-
-function drawComposition() {
-  
-
-}
