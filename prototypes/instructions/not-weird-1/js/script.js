@@ -32,7 +32,6 @@ function setup() {
 }
 
 function draw() {
-  //empty, we don't want animations for this case
   background(mondrianColors.white);
 
   // Start with the whole canvas as one region, then recursively split it
