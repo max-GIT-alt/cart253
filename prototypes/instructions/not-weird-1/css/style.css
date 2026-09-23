@@ -1,20 +1,134 @@
 /*********************************************
 
-Here is a description of any special CSS used.
-In this case it's just padding and margin to 0
-and then centring the canvas (and anything else)
-using the CSS Grid.
-
-Also hides overflow.
+Mostly a collection of base colors, and justifications for the main index.html
 
 **********************************************/
 
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
-  padding: 0;
   margin: 0;
-  display: grid; /* Set up the grid and justify/align to center */
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #111111;
+}
+
+.mondrian-grid {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1.1fr 1.6fr 1fr;
+  grid-template-rows: auto 1fr auto auto;
+  grid-template-areas:
+    "title   title   yellow"
+    "about   sketch  sketch"
+    "red     sketch  sketch"
+    "footer  blue    blue";
+  background-color: #111111; /* shows through as the grid lines */
+  gap: 8px;
+  padding: 8px;
+}
+
+.cell {
+  border: 4px solid #111111;
+  padding: 1.5rem;
+  overflow: auto;
+}
+
+.white {
+  background-color: #f7f5f0;
+}
+
+.red {
+  background-color: #d5001c;
+}
+
+.yellow {
+  background-color: #f4c400;
+}
+
+.blue {
+  background-color: #1650a0;
+}
+
+.cell--title {
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-  height: 100vh; /* Body is the height of the viewport */
-  overflow: hidden; /* Hide anything that goes off the window size */
+}
+
+.cell--title h1 {
+  margin: 0 0 0.25rem 0;
+  letter-spacing: 0.03em;
+}
+
+.cell--title .subtitle {
+  margin: 0;
+  font-style: italic;
+  color: #444;
+}
+
+.cell--about {
+  grid-area: about;
+  line-height: 1.5;
+}
+
+.cell--about h2 {
+  margin-top: 0;
+}
+
+.cell--red {
+  grid-area: red;
+}
+
+.cell--sketch {
+  grid-area: sketch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.cell--sketch canvas {
+  display: block;
+}
+
+.cell--yellow {
+  grid-area: yellow;
+}
+
+.cell--blue {
+  grid-area: blue;
+}
+
+.cell--footer {
+  grid-area: footer;
+  font-size: 0.8rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.cell--footer a {
+  color: #1650a0;
+}
+
+/* Stack everything into a single column on small screens */
+@media (max-width: 640px) {
+  .mondrian-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title"
+      "about"
+      "sketch"
+      "red"
+      "yellow"
+      "blue"
+      "footer";
+  }
 }
