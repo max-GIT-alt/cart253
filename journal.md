@@ -11,3 +11,9 @@ I'm not under any impression that this project will last longer than needed. So 
 ### Screenshot
 
 ![Screenshot of my course website](images/journal-screenshot.png)
+
+## September 23, 2026
+
+this week I built 3 different websites around the idea of "normal" and "weird", and added these projects to the github repo. I chose to take the assignment a bit lighter considering the open nature of the task and targeted some artists I enjoy, and defined "weird" as a form of subversion. In this case, I specifically aimed to represent "wall of text" and "anti-UI" ideas as the most likely to be considered "weird". These are horrible websites by my standards, but they are interesting. Considering I usually build only for a functional reason, this is the first time I was motivated by more chaotic ideation. 
+
+
