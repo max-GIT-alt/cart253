@@ -1,16 +1,22 @@
 /**
- * Title of Project
- * Author Name
+ * candle-burning
+ * Maxim Yakimenko
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * A quickly shrinking candle light, that reacts to mouse proximity by becoming more random and unstable.
  */
 
 "use strict";
 
-/**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+// The candle wax
+const candle = {
+    x: 240,
+    bottom: 420,
+    width: 60,
+    height: 260, // Shrinks while lit
+    maxHeight: 260,
+    meltRate: 0.15 // How much height is lost each frame
+};
+
 function setup() {
 
 }
