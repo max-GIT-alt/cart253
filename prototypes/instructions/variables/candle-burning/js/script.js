@@ -40,7 +40,7 @@ function draw() {
         candle.height -= candle.meltRate;
         candle.height = constrain(candle.height, 0, candle.maxHeight);
     }
-    // kills the fire
+    // kill the fire
     if (candle.height === 0) {
         flame.lit = false;
     }
@@ -53,6 +53,12 @@ function draw() {
 
     // noise func
     const flicker = noise(flame.noiseTime);
+
+    //draw it
+    drawCandle(candleTop);
+    if (flame.lit) {
+        drawFlame(candleTop, flicker);
+    }
 }
 
 function drawFlame(candleTop, flicker) {
@@ -67,5 +73,19 @@ function drawFlame(candleTop, flicker) {
     ellipse(candle.x + sway, candleTop - 12 - flameHeight / 2, flameWidth, flameHeight);
     fill(255, 240, 150);
     ellipse(candle.x + sway, candleTop - 12 - flameHeight / 3, flameWidth / 2, flameHeight / 2);
+    pop();
+}
+function drawCandle(candleTop) {
+    const waxShade = map(candle.height, 0, candle.maxHeight, 120, 240);
+    push();
+    noStroke();
+    fill(waxShade, waxShade, waxShade - 20);
+    rect(candle.x - candle.width / 2, candleTop, candle.width, candle.height);
+    pop();
+    // Wick
+    push();
+    stroke(40);
+    strokeWeight(3);
+    line(candle.x, candleTop, candle.x, candleTop - 12);
     pop();
 }
