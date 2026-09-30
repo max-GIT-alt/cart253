@@ -1,4 +1,4 @@
-# Prototyping: Variables
+# Prototyping: Variables breathing-sun
 
 Maxim Yakimenko 
 
