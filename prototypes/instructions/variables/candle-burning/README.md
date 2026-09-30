@@ -1,4 +1,4 @@
-# Prototyping: Variables
+# Prototyping: Variables candle-burning
 
 Maxim Yakimenko 
 
