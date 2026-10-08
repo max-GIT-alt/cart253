@@ -2,7 +2,7 @@
 
 Maxim Yakimenko
 
-https://max-git-alt.github.io/cart253/conditionals/conditionals-prototype-1-shy-blob/
+https://max-git-alt.github.io/cart253/prototypes/instructions/conditionals/conditionals-prototype-1-shy-blob
 
 ## Description
 
