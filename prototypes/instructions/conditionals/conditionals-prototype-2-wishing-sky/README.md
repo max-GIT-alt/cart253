@@ -2,7 +2,7 @@
 
 Maxim Yakimenko
 
-https://max-git-alt.github.io/cart253/instructions/conditionals/conditionals-prototype-2-wishing-sky/
+https://max-git-alt.github.io/cart253/prototypes/instructions/conditionals/conditionals-prototype-2-wishing-sky
 
 ## Description
 
