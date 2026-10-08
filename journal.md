@@ -16,4 +16,8 @@ I'm not under any impression that this project will last longer than needed. So 
 
 This week I built 3 different websites around the idea of "normal" and "weird", and added these projects to the github repo. I chose to take the assignment a bit lighter considering the open nature of the task and targeted some artists I enjoy, and defined "weird" as a form of subversion. In this case, I specifically aimed to represent "wall of text" and "anti-UI" ideas as the most likely to be considered "weird". These are horrible websites by my standards, but they are interesting. Considering I usually build only for a functional reason, this is the first time I was motivated by more chaotic ideation. 
 
+## October 07, 2026
 
+I had to rush my work this week. I'm mentally gone and a lot happened quickly. On the topic of conditionals, these are fundamentals that are needed to run any code. Variations of gates or if statements allow projects like this one to run, but fundamentally the hardest thing is finding the action/reaction that fits the need of the system without over complicating the logic. I hope the repo can at least be fun to anyone looking at it. 
+
+![Screenshot of my course website](images/Screenshot_20261007_234117.png)
