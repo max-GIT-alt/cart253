@@ -1,8 +1,8 @@
-# conditionals-prototype-1-shy-blob
+# conditionals-prototype-3-goldilocks-plant
 
 Maxim Yakimenko
 
-https://max-git-alt.github.io/cart253/conditionals/conditionals-prototype-3-goldilocks-plant/
+https://max-git-alt.github.io/cart253/prototypes/instructions/conditionals/conditionals-prototype-3-goldilocks-plant
 
 ## Description
 
