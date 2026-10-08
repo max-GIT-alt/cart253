@@ -1,4 +1,4 @@
-# conditionals-prototype-1-shy-blob
+# conditionals-prototype-2-wishing-sky
 
 Maxim Yakimenko
 
