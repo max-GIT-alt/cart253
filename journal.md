@@ -21,3 +21,11 @@ This week I built 3 different websites around the idea of "normal" and "weird", 
 I had to rush my work this week. I'm mentally gone and a lot happened quickly. On the topic of conditionals, these are fundamentals that are needed to run any code. Variations of gates or if statements allow projects like this one to run, but fundamentally the hardest thing is finding the action/reaction that fits the need of the system without over complicating the logic. I hope the repo can at least be fun to anyone looking at it. 
 
 ![Screenshot of my course website](images/Screenshot_20261007_234117.png)
+
+## October 21, 2026
+
+The functions are the main theme for this week. I decided to keep it simple and introduced the 3 projects as
+clowns, fireflies, and buttons. I didn't learn that much here, but I did recall that the basic of OOP has always
+revolved around functions, objects, and classes. I still recall how confusing these things where for me when I 
+first encountered the idea that JAVA, or in this case JS, can expand forever using these neat little boxes. I'll
+be honest, I still don't fully understand this black magic, or function languages, but it's fun to mess with.
