@@ -29,3 +29,7 @@ clowns, fireflies, and buttons. I didn't learn that much here, but I did recall 
 revolved around functions, objects, and classes. I still recall how confusing these things where for me when I 
 first encountered the idea that JAVA, or in this case JS, can expand forever using these neat little boxes. I'll
 be honest, I still don't fully understand this black magic, or function languages, but it's fun to mess with.
+
+## November 06, 2026
+
+Arrays are a weird thing for me. I used to confuse lists, dictionaries, and arrays as interchangeable concept in programming. To a degree, I was right, these words are in ways "collections of words/symbols". With JS these concepts became concrete differences of methods. The difference between a  FIFO and a heap became vital to efficient execution. Now, I've returned to the odd abstraction of the abstraction that ordering things is less about definitions or efficiency, call it tomato or potato, it's ultimately the expression of this "group of things" which as so many variations across languages and technical terminology. Odd how it all blurs together.  
