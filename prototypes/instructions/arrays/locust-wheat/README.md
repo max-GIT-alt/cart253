@@ -2,7 +2,7 @@
 
 Maxim Yakimenko
 
-https://max-git-alt.github.io/cart253/prototypes/instructions/arrays//locust-wheat
+https://max-git-alt.github.io/cart253/prototypes/instructions/arrays/locust-wheat
 
 ## Description
 
